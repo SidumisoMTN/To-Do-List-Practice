@@ -72,6 +72,13 @@ body{
     width: 100%;
     position: relative;
 }
+
+#heading {
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    padding: 16px;
+}
 .task{
     background-color: #ffffff;
     height: 50px;
