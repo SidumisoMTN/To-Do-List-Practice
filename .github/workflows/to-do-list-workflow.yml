@@ -39,4 +39,19 @@ jobs:
         run: |
           ls ${{github.workspace}}
           echo "Listed the files in repository."
-      - run: echo "This job's status is ${{job.status}}."
+      - name: Job's status
+        run: echo "This job's status is ${{job.status}}."
+
+  test: 
+
+    runs-on: ubuntu-latest
+    
+    # steps: 
+
+    #   - name: Run a one-line script
+    #     run: echo Hello, world!
+
+  deploy:
+
+    runs-on: ubuntu-latest
+
