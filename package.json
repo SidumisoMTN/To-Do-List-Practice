@@ -1,0 +1,20 @@
+{
+  "name": "to-do-list-practice",
+  "version": "1.0.0",
+  "description": "A To-Do List mini project in order to apply GitHub Actions workflow, integrate CodeCov and Docker",
+  "main": "javascript/script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidumisoMTN/To-Do-List-Practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SidumisoMTN/To-Do-List-Practice/issues"
+  },
+  "homepage": "https://github.com/SidumisoMTN/To-Do-List-Practice#readme"
+}
