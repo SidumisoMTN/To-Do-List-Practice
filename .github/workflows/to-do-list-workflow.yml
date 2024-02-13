@@ -38,5 +38,5 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{github.workspace}}
-      - run: echo "Listed the files in repository."
+          echo "Listed the files in repository."
       - run: echo "This job's status is ${{job.status}}."
