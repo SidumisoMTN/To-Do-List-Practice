@@ -42,7 +42,7 @@ jobs:
       - name: Job's status
         run: echo "This job's status is ${{job.status}}."
       - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v4.0.1
+        uses: codecov/codecov-action@v3
         # env:
           # CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         env:
