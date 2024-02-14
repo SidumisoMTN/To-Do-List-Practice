@@ -56,12 +56,14 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker Image
-        run: docker build -t sidumisomabaso/todo_list:latest .
-            echo "Docker Image built successfully."
+        run: |
+          docker build -t sidumisomabaso/todo_list:latest .
+          echo "Docker Image built successfully."
       
       - name: Push Docker Image
-        run: docker push sidumisomabaso/todo_list:latest 
-            echo "Docker Image pushed sucessfully."
+        run: |
+          docker push sidumisomabaso/todo_list:latest 
+          echo "Docker Image pushed sucessfully."
 
   # test: 
 
