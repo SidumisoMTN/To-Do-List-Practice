@@ -7,10 +7,14 @@ WORKDIR /
 # Copy application files from local machine
 COPY main.html .
 
-# install the dependencies
-RUN npm install
+# clean the NPM Cache
+RUN npm cache clean --force
 
-# Expose the application to port 80
+# install the dependencies
+# RUN npm install
+RUN RUN apt-get update && apt-get install -y npm
+
+# Expose the application to port 8080
 EXPOSE 8080
 
 # specify the default command,
