@@ -51,8 +51,10 @@ jobs:
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4.0.1
         env:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          slug: SidumisoMTN/To-Do-List-Practice
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        # env:
+        #   token: ${{ secrets.CODECOV_TOKEN }}
+        #   slug: SidumisoMTN/To-Do-List-Practice
 
     #   - name: Run a one-line script
     #     run: echo Hello, world!
