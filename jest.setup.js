@@ -1,0 +1,1 @@
+require('text-encoding').TextEncoder;
