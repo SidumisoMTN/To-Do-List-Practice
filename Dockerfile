@@ -12,7 +12,7 @@ RUN npm cache clean --force
 
 # install the dependencies
 # RUN npm install
-RUN RUN apt-get update && apt-get install -y npm
+RUN apt-get update && apt-get install -y npm
 
 # Expose the application to port 8080
 EXPOSE 8080
