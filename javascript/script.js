@@ -1,7 +1,4 @@
 window.onload = function(){ 
-    // your code 
-
-
     document.querySelector('#push').onclick = function(){
         if(document.querySelector('#newtask input').value.length == 0){
             alert("Please Enter a Task")
@@ -41,16 +38,6 @@ function greetUser() {
     const greeting = "Hello there, friend!";
     return greeting;
 }
-
-// module.exports = {greetUser};
-// module.exports = {
-//     testEnvironment: "jsdom"
-// };
-
-// module.exports = {
-//     greetUser,
-//     testEnvironment: "jsdom"
-// };
 
 // Export the greetUser function
 module.exports = { greetUser };
