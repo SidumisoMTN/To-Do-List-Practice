@@ -6,9 +6,9 @@ name: To-Do List Practice Workflow
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ "deployment" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "deployment" ]
 
   # Allows you to run this workflow manually from the Actions tab
   # workflow_dispatch:
