@@ -1,0 +1,14 @@
+{
+    "name": "DevLake Development",
+    "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:latest",
+    "postCreateCommand": "npm install",
+    "forwardPorts": [3000, 8080],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ]
+  }
+  
